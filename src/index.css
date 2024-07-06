@@ -1,0 +1,63 @@
+
+body {   background-color: #19034897;
+  display: grid;
+}
+
+h1 {
+ font-size: 38px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.3em 0.8em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #5f4f67;
+  cursor: pointer;
+  transition: border-color 0.5s;
+  height: 3em;
+  margin: 5px;
+}
+button:hover {
+  border-color: #010436;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.checkoutCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #d4b2fe;
+  max-width: 400px; /* ajusta el ancho máximo de la tarjeta */
+  margin: 0 auto; /* centrar la tarjeta horizontalmente */
+}
+
+.checkoutCard input{
+margin: 7px;
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.checkoutCard select{
+  margin: 7px;
+width: 100%;
+}
+.checkoutCard p{
+  margin: 7px;
+  padding-left: 1vh;
+width: 100%;
+border: 1px solid white;
+}
+
+.checkoutCard Button{
+  margin: 7px;
+width: 100%;
+background-color: black;
+border-color: white;
+}
